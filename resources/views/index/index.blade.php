@@ -13,33 +13,42 @@
                             <h1>Search</h1>
                             <hr class="intro-divider">
                             <div class="input-group">
-                                <input type="text" class="form-control" aria-label="...">
                                 <div class="input-group-btn">
-                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Action <span class="caret"></span></button>
-                                            <ul class="dropdown-menu dropdown-menu-right" role="menu">
-                                              <li><a href="#">Action</a></li>
-                                              <li><a href="#">Another action</a></li>
-                                              <li><a href="#">Something else here</a></li>
-                                              <li class="divider"></li>
-                                              <li><a href="#">Separated link</a></li>
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Categories <span class="caret"></span></button>
+                                            <ul class="dropdown-menu dropdown-menu-left" role="menu">
+                                              <li><a href="#">All</a></li>
+                                              <li><a href="#">Apartments</a></li>
+                                              <li><a href="#">Books</a></li>
+                                              <li><a href="#">Car Pool</a></li>
+                                              <li><a href="#">Electronics</a></li>
+                                              <li><a href="#">Furniture</a></li>
+                                              <li><a href="#">Study Supplies</a></li>
+                                              <li><a href="#">Tickets</a></li>
+                                              <li><a href="#">Vehicle</a></li>
                                             </ul>
                                 </div>
+                                <input type="text" class="form-control" aria-label="...">
                             </div>                       
-                    <br/><br/><br/>
-                       <div class="btn-group">
-                          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                            Action <span class="caret"></span>
-                          </button>
-                          <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                          </ul>
-                        </div>                       
+                          <br/><br/><br/>
+                          <div class="ui-widget" align="center">
+                            
+                            <input style="width:50%" id="tags" class="form-control" placeholder="University" list="university">
+                            <datalist id="university">
+                                <option value="University of Texas at Dallas">
+                                <option value="Carneigie Mellon">
+                                <option value="Georgia Tech">
+                                <option value="Syracuse Univ">
+                                <option value="Columbia">
+                                <option value="Colorado State">
+                                <option value="U Pitt">
+                                <option value="SJSU">
+                                <option value="NCSU">
+                                <option value="NEU">
+                            </datalist>
 
-                    <br/><br/>
+                          </div>                     
+
+                          <br/><br/>
 
                         <ul class="list-inline intro-social-buttons">
                             <li>
@@ -48,15 +57,23 @@
                             <li>
                                <a href="#" class="btn btn-default btn-lg"><span class="network-name">Reset</span></a>
                             </li>
+                            <li>
+                              <a href="#services" class="down-arrow"></a>
+                            </li>
                         </ul>                   
-
+                   
+                     
                     </div>
                 </div>
             </div>
 
+
+
         </div>
         <!-- /.container -->
-
+                    <panel class="panel-css">
+                        <div>HELLO WORLD</div>
+                    </panel>
     </div>
     <!-- /.intro-header -->
 
@@ -64,74 +81,70 @@
 
 	<a  name="services"></a>
     <div class="content-section-a">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Hot Potatoes!</h2>
+              </div>
+              <!-- starting carousel -->
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                      <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ol>
+                    <div class="col-md-12">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                      <div class="item active">
+                      <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4 well"><img src="http://lorempixel.com/400/200/sports" alt="Chania" class="img-responsive"></div>
+                      <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4 well"><img src="http://lorempixel.com/400/200/sports" alt="Chania" class="img-responsive"></div>
+                      <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4 well"><img src="http://lorempixel.com/400/200/sports" alt="Chania" class="img-responsive"></div>
+                      </div>
 
-       
-            <!--div class="row"-->
+                      <div class="item">
+                       <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4 well"><img src="http://lorempixel.com/400/200/" alt="Chania" class="img-responsive"></div>
+                       <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4 well"><img src="http://lorempixel.com/400/200/" alt="Chania" class="img-responsive"></div>
+                       <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4 well"><img src="http://lorempixel.com/400/200/" alt="Chania" class="img-responsive"></div>
+                      </div>
+                    
+                      <div class="item">
+                       <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4 well"><img src="http://lorempixel.com/400/200/" alt="Chania" class="img-responsive"></div>
+                       <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4 well"><img src="http://lorempixel.com/400/200/" alt="Chania" class="img-responsive"></div>
+                       <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4 well"><img src="http://lorempixel.com/400/200/" alt="Chania" class="img-responsive"></div>
+                      </div>
 
-<div class="container">
-    <div class="col-md-12 text-center"><h3>Bootstrap 3 Multiple Slide Carousel</h3></div>
-
-<div class="carousel slide col-md-12" id="myCarousel">
-  <div class="carousel-inner">
-    <div class="item active">
-      <div class="col-xs-3"><a href="#"><img src="http://placehold.it/500/e499e4/fff&amp;text=1" class="img-responsive"></a></div>
-    </div>
-    <div class="item">
-      <div class="col-xs-3"><a href="#"><img src="http://placehold.it/500/e477e4/fff&amp;text=2" class="img-responsive"></a></div>
-    </div>
-    <div class="item">
-      <div class="col-xs-3"><a href="#"><img src="http://placehold.it/500/eeeeee&amp;text=3" class="img-responsive"></a></div>
-    </div>
-    <div class="item">
-      <div class="col-xs-3"><a href="#"><img src="http://placehold.it/500/f4f4f4&amp;text=4" class="img-responsive"></a></div>
-    </div>
-    <div class="item">
-      <div class="col-xs-3"><a href="#"><img src="http://placehold.it/500/f566f5/333&amp;text=5" class="img-responsive"></a></div>
-    </div>
-    <div class="item">
-      <div class="col-xs-3"><a href="#"><img src="http://placehold.it/500/f477f4/fff&amp;text=6" class="img-responsive"></a></div>
-    </div>
-    <div class="item">
-      <div class="col-xs-3"><a href="#"><img src="http://placehold.it/500/eeeeee&amp;text=7" class="img-responsive"></a></div>
-    </div>
-    <div class="item">
-      <div class="col-xs-3"><a href="#"><img src="http://placehold.it/500/fcfcfc/333&amp;text=8" class="img-responsive"></a></div>
-    </div>
-  </div>
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
-</div>
+                      <div class="item">
+                       <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4 well"><img src="http://lorempixel.com/400/200/" alt="Chania" class="img-responsive"></div>
+                       <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4 well"><img src="http://lorempixel.com/400/200/" alt="Chania" class="img-responsive"></div>
+                       <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4 well"><img src="http://lorempixel.com/400/200/" alt="Chania" class="img-responsive"></div>
+                      </div>
+                    </div>
 
 
-</div>
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                    </div>
+                </div>
+              <!-- ending carousel -->
 
-            <!--/div-->
-
-        <!-- /.container -->
+              </div>
+              <a href="#about" class="down-arrow"></a>
+          </div>
 
     </div>
     <!-- /.content-section-a -->
-
-    <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
-                    <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/dog.png" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
     <!-- /.content-section-b -->
 
     <div class="content-section-a">
@@ -144,9 +157,6 @@
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Google Web Fonts and<br>Font Awesome Icons</h2>
                     <p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/phones.png" alt="">
                 </div>
             </div>
 
@@ -186,33 +196,33 @@
     </div>
     <!-- /.banner -->
 
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js">
+
+  $('#myCarousel').carousel({
+    interval: 40
+  });
+
+  $('.carousel .item').each(function(){
+    var next = $(this).next();
+    
+    if (!next.length) {
+      next = $(this).siblings(':first');
+    }
+    next.children(':first-child').clone().appendTo($(this));
+    
+    if (next.next().length>0) {
+   
+        next.next().children(':first-child').clone().appendTo($(this)).addClass('rightest');
+        
+    }
+    else {
+        $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+       
+    }
+  });
+
+   
+</script>
+
 @stop
-
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js">
-    
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js">
-    
-$('#myCarousel').carousel({
-  interval: 40
-});
-
-$('.carousel .item').each(function(){
-  var next = $(this).next();
-  
-  if (!next.length) {
-    next = $(this).siblings(':first');
-  }
-  next.children(':first-child').clone().appendTo($(this));
-  
-  if (next.next().length>0) {
- 
-      next.next().children(':first-child').clone().appendTo($(this)).addClass('rightest');
-      
-  }
-  else {
-      $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
-     
-  }
-});
-    </script>
-    </script>

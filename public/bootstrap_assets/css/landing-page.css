@@ -39,7 +39,7 @@ h6 {
 
 .intro-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     text-align: center;
     color: #f8f8f8;
     background: url(../img/intro-bg.jpg) no-repeat center center;
@@ -48,7 +48,7 @@ h6 {
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
+    padding-top: 10%;
     padding-bottom: 20%;
 }
 
@@ -180,8 +180,62 @@ p.copyright {
     margin-top: 100px; /* define margin as you see fit */
 }
 
-.carousel-inner .active.left { left: -25%; }
-.carousel-inner .next        { left:  25%; }
-.carousel-inner .prev        { left: -25%; }
-.carousel-control            { width:  4%; }
-.carousel-control.left,.carousel-control.right {margin-left:15px;background-image:none;}
+panel {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+panel.panel-css {
+    background-color: #000000;
+    padding-top: 40px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+}
+
+.down-arrow {
+width: 0;
+height: 0;
+border-left: 30px solid transparent;
+border-right: 30px solid transparent;
+border-top: 30px solid #FFF00F;
+left: 100%;
+margin-left: -30px;
+position: absolute;
+cursor: pointer;
+opacity: 0.5;
+transition: all 0.2s ease-in-out;
+}
+
+.img-size {
+    width: 400;
+    height: 200;
+}
+
+.user-details { 
+    position: relative; padding: 0;
+}
+
+.user-details .user-image {
+    position: relative;  
+    z-index: 1; 
+    width: 100%; 
+    text-align: left;
+}
+
+.user-image img { 
+    clear: both; 
+    margin: auto; 
+    position: relative;
+}
+
+td {
+    padding: 5px;
+}
+
+.hide-bullets {
+list-style:none;
+margin-left: -40px;
+margin-top:20px;
+}
