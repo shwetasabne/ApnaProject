@@ -180,22 +180,41 @@ Prem and Nisha vow to sacrifice their love for Rajesh and the baby. Moments befo
 				</table>
 			</div>
 
+			<hr>
 			<div class="col-lg-4">
-				<table>
-					<caption>You May Also Like...</caption>
-					<tr>
-						<td>
-							Image
-						</td>
-						<td>
-							Info
-						</td>
-					</tr>
-
-				</table>
+				<hr>
+				<h2>You may also like...</h2>
+			</div>
+			<div class="col-lg-2">
+				<img src="http://placehold.it/170x100&text=one">
+			</div>
+			<div class="col-lg-2">
+				Info Image 1
 			</div>
 
+			<div class="col-lg-4">
+				<hr>
+			</div>
+			<div class="col-lg-2">
+				<img src="http://placehold.it/170x100&text=one">
+			</div>
+			<div class="col-lg-2">
+				Info Image 1
+			</div>
 
+			<div class="col-lg-4">
+				<hr>
+			</div>
+			<div class="col-lg-2">
+				<img src="http://placehold.it/170x100&text=one">
+			</div>
+			<div class="col-lg-2">
+				Info Image 1
+			</div>
+			<div class="col-lg-4">
+				<br/></br/>
+				<a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">See More</span></a>
+			</div>
 
 
 		</div>

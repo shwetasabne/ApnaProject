@@ -19,6 +19,7 @@ Route::get('product/index', 'ProductController@index');
 
 Route::get('user/profile', 'UserController@index');
  
+
 Route::controllers([
 	'auth' 		=> 'Auth\AuthController',
 	'password' 	=> 'Auth\PasswordController',

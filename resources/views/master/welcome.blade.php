@@ -14,6 +14,8 @@
     <!-- Bootstrap Core CSS -->
     <link href="/../bootstrap_3/dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <link href="/../bootstrap_assets/css/bootstrap.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
@@ -72,7 +74,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="/../home/index">Register</a>
+                        <a href="/../auth/register">Register</a>
                     </li>
                     @if ( Auth::check() )
                     <li>
