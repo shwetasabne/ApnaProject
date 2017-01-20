@@ -50,13 +50,22 @@
             </div>
         </div>
         <div class="col-md-4">
-            <form>
             <legend><span class="glyphicon glyphicon-globe"></span>&nbsp;Our office</legend>
-            <address>
+            <div class="col-md-4">
+                <address>
                 <strong>Buy and Sell, Inc.</strong><br>
-                Anywhere we find Wifi!<br>
+                 Anywhere we find Wifi!<br>
                 Around the Globe, 00000<br>
+               
+                </address>
+            </div>
+            <div class="col-md-4">
+            <address>
+                <iframe src="//giphy.com/embed/yNBtCjLSiqYSI?html5=true" width="80" height="80" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
             </address>
+            </div>
+        </div>
+        <div class="col-md-4">
             <address>
                 <strong>Phone</strong><br>
                 <a>(123) 456-7890</a>
@@ -64,7 +73,6 @@
             <a href="http://www.facebook.com/yashodhan.chinchore"><img src="/images/facebook.jpeg"></a>
             <a href="https://twitter.com/"><img src="/images/twitter.jpeg"></a>
             <a href="https://plus.google.com/108826186424756990365"><img src="/images/google.jpeg"></a>
-            </form>
         </div>
     </div>
 </div>

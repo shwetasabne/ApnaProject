@@ -90,6 +90,9 @@
                     <li>
                         <a href="/../user/profile">User Profile</a>
                     </li>
+                    <li>
+                        <a href="/../search/results">Search Results</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

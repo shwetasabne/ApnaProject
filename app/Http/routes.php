@@ -18,6 +18,8 @@ Route::get('contact/index', 'ContactController@index');
 Route::get('product/index', 'ProductController@index');
 
 Route::get('user/profile', 'UserController@index');
+
+Route::get('search/results', 'SearchController@index');
  
 
 Route::controllers([
